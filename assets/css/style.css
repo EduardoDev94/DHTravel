@@ -1,42 +1,42 @@
-    *{
+*{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
 }
 
-    header ul, header ul li {
+header ul, header ul li {
         display: inline;        
 }
-    .material-symbols-outlined{
+.material-symbols-outlined{
         color:white
     }
     
     
-    #logo {
+#logo {
         display: inline;
         color: white
 }
 
-    header a {
+header a {
         text-decoration: none;
         color: white;
 }
  
-    header ul li {
+header ul li {
         margin-left: 40px;
         
 }
-    body {
+body {
         font-family: 'Roboto', sans-serif;
    }
-   header{
+header{
     background-color: #0078AA;
     width: 100%;
     height: 10vh;
     padding: 40px
    }
    
-   .banner img {
+.banner img {
     height: 50vh;
     width: 55vw;
     border-radius: 5px
@@ -44,10 +44,26 @@
 .banner h1 {
     margin: 20px
 }
-   .banner {
+.banner {
     text-align: center;
    }
-   .description p {
+.description p {
     padding: 30px;
     margin: 30px
 }
+.description {
+    width: 100%
+
+
+}
+footer p {
+    text-align: center;
+    color: black;
+    
+ }
+ footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #3AB4F2;
+
+ }
