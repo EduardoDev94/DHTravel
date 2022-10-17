@@ -1,0 +1,53 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+    header ul, header ul li {
+        display: inline;        
+}
+    .material-symbols-outlined{
+        color:white
+    }
+    
+    
+    #logo {
+        display: inline;
+        color: white
+}
+
+    header a {
+        text-decoration: none;
+        color: white;
+}
+ 
+    header ul li {
+        margin-left: 40px;
+        
+}
+    body {
+        font-family: 'Roboto', sans-serif;
+   }
+   header{
+    background-color: #0078AA;
+    width: 100%;
+    height: 10vh;
+    padding: 40px
+   }
+   
+   .banner img {
+    height: 50vh;
+    width: 55vw;
+    border-radius: 5px
+   }
+.banner h1 {
+    margin: 20px
+}
+   .banner {
+    text-align: center;
+   }
+   .description p {
+    padding: 30px;
+    margin: 30px
+}
